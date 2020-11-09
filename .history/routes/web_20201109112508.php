@@ -17,4 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('products', 'ProductController');
-Route::get('max', 'ProductController@getMax');
